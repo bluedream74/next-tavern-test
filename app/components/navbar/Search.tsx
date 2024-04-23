@@ -28,12 +28,30 @@ const Search = () => {
       >
         <div
           className="
+            w-full
             text-sm
             font-semibold
             px-6
+            w-atuo
           "
         >
-          {/* <input type="text" /> */}
+          <input
+            type="text"
+            id="email"
+            className="
+              peer
+              w-full
+              py-1
+              px-2
+              text-black
+              font-light
+              bg-white
+              border
+              rounded-md
+              outline-none
+              transition
+            "
+          />
         </div>
         <div
           className="
