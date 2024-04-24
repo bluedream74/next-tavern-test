@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const Logo = () => {
-  return ( 
+  return (
     <Image
       alt='Logo'
       className='hidden md:block cursor-pointer'
@@ -14,5 +14,5 @@ const Logo = () => {
     />
   );
 }
- 
+
 export default Logo;

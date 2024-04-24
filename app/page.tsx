@@ -1,5 +1,7 @@
+import HomeImage from "./components/HomeImage";
+
 export default function Home() {
   return (
-    <div>Hello World!</div>
+    <HomeImage />
   );
 }

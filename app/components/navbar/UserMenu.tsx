@@ -14,7 +14,7 @@ const UserMenu = () => {
     setIsOpen((value) => !value);
   }, []);
 
-  return ( 
+  return (
     <div className="relative">
       <div
         className="
@@ -44,13 +44,13 @@ const UserMenu = () => {
           "
         >
           <AiOutlineMenu />
-          <div 
+          <div
             className="
               hidden
               md:block
             "
           >
-            <Avatar />     
+            <Avatar />
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ const UserMenu = () => {
         </div>
       )}
     </div>
-   );
+  );
 }
- 
+
 export default UserMenu;

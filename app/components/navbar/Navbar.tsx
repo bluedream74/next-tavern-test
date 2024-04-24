@@ -6,8 +6,8 @@ import Search from "./Search";
 import UserMenu from "./UserMenu";
 
 const Navbar = () => {
-  return ( 
-    <div 
+  return (
+    <div
       className="
         fixed
         w-full
@@ -42,5 +42,5 @@ const Navbar = () => {
     </div>
   );
 }
- 
+
 export default Navbar;
