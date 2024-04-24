@@ -5,12 +5,12 @@ import FooterColumn from "./FooterColumn";
 
 type Props = {};
 
-function Footer({}: Props) {
+function Footer({ }: Props) {
   const itemData = [
     ["ABOUT", "Item1", "Item2", "Item3", "Item4"],
     ["Support", "Item1", "Item2", "Item3", "Item4"],
     ["Community", "Item1", "Item2", "Item3", "Item4"],
-    ["Hosting","Item1","Item2","Item3","Item4"],
+    ["Hosting", "Item1", "Item2", "Item3", "Item4"],
   ];
 
   const footerColumns = itemData.map((item, index) => (
@@ -19,7 +19,7 @@ function Footer({}: Props) {
 
   return (
     <ClientOnly>
-      <div 
+      <div
         className="
           sm:static
           md:fixed

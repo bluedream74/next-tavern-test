@@ -9,7 +9,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
   onClick,
   label
 }) => {
-  return ( 
+  return (
     <div
       onClick={onClick}
       className="
@@ -22,7 +22,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     >
       {label}
     </div>
-   );
+  );
 }
- 
+
 export default MenuItem;

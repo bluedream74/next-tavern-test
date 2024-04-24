@@ -3,7 +3,7 @@
 import { BiSearch } from "react-icons/bi";
 
 const Search = () => {
-  return ( 
+  return (
     <div
       className="
         border-[1px]
@@ -72,7 +72,7 @@ const Search = () => {
         </div>
       </div>
     </div>
-   );
+  );
 }
- 
+
 export default Search;

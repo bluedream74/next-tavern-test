@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 const Avatar = () => {
-  return ( 
+  return (
     <Image
       className="rounded-full"
       height={30}
@@ -11,7 +11,7 @@ const Avatar = () => {
       alt="Avatar"
       src={'/images/avatar.png'}
     />
-   );
+  );
 }
- 
+
 export default Avatar;

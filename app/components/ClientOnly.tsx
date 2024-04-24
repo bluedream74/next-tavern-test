@@ -19,11 +19,11 @@ const ClientOnly: React.FC<ClientOnlyProps> = ({
     return null;
   }
 
-  return ( 
+  return (
     <>
       {children}
     </>
-   );
+  );
 }
- 
+
 export default ClientOnly;

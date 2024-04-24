@@ -6,6 +6,7 @@ import ClientOnly from "./components/ClientOnly";
 import Modal from "./components/modals/Modal";
 import RegisterModal from "./components/modals/RegisterModal";
 import Footer from "./components/Footer";
+import Container from "./components/Container";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,10 +27,20 @@ export default function RootLayout({
           <RegisterModal />
           <Navbar />
         </ClientOnly>
-        {children}
-        <ClientOnly>
-          <Footer />
-        </ClientOnly>
+        <div
+          className="
+            pt-28
+            md:h-full
+            md:pb-64
+            pb-4
+            md:overflow-y-auto
+          "
+        >
+          <Container>
+            {children}
+          </Container>
+        </div>
+        <Footer />
       </body>
     </html>
   );

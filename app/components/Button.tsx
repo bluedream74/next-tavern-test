@@ -19,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({
   small,
   icon: Icon
 }) => {
-  return ( 
+  return (
     <button
       onClick={onClick}
       disabled={disabled}
@@ -41,7 +41,7 @@ const Button: React.FC<ButtonProps> = ({
       `}
     >
       {Icon && (
-        <Icon 
+        <Icon
           size={24}
           className="
             absolute
@@ -52,7 +52,7 @@ const Button: React.FC<ButtonProps> = ({
       )}
       {label}
     </button>
-   );
+  );
 }
- 
+
 export default Button;

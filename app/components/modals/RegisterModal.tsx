@@ -47,8 +47,8 @@ const RegisterModal = () => {
     </div>
   );
 
-  return ( 
-    <Modal 
+  return (
+    <Modal
       disabled={isLoading}
       isOpen={registerModal.isOpen}
       title='Register'
@@ -59,5 +59,5 @@ const RegisterModal = () => {
     />
   );
 }
- 
+
 export default RegisterModal;

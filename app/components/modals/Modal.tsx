@@ -37,7 +37,7 @@ const Modal: React.FC<ModalProps> = ({
 
   const handleClose = useCallback(() => {
     if (disabled) {
-      return;  
+      return;
     }
 
     setShowModal(false);
@@ -66,7 +66,7 @@ const Modal: React.FC<ModalProps> = ({
     return null;
   }
 
-  return ( 
+  return (
     <>
       <div
         className="
@@ -192,10 +192,10 @@ const Modal: React.FC<ModalProps> = ({
                     />
                   )}
                   <Button
-                  disabled={disabled}
-                  label={actionLabel}
-                  onClick={handleSubmit}
-                />
+                    disabled={disabled}
+                    label={actionLabel}
+                    onClick={handleSubmit}
+                  />
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@ const Modal: React.FC<ModalProps> = ({
         </div>
       </div>
     </>
-   );
+  );
 }
- 
+
 export default Modal;
