@@ -46,9 +46,10 @@ const Search = () => {
               text-black
               font-light
               bg-white
-              border
+              border-0
               rounded-md
               outline-none
+              focus:outline-none
               transition
             "
           />
